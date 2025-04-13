@@ -10,6 +10,7 @@ import Contact from "./Components/Contact";
 import Footer from './Components/Footer';
 import { motion } from 'framer-motion';
 
+
 const App = () => {
   // Animation variants for "come up with scroll" effect
   const scrollVariants = {
@@ -27,6 +28,7 @@ const App = () => {
             element={
               <>
                 <Hero />
+                
                 
                 {/* Services component */}
                 <motion.div
@@ -46,6 +48,7 @@ const App = () => {
                   variants={scrollVariants}
                 >
                   <About />
+                 
                 </motion.div>
                 
                 {/* WorkingSteps component */}
@@ -59,14 +62,6 @@ const App = () => {
                 </motion.div>
                 
                 {/* Pricing component */}
-                <motion.div
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ amount: 0.3 }}
-                  variants={scrollVariants}
-                >
-                  <Pricing />
-                </motion.div>
                 
                 {/* Testimonial component */}
                 <motion.div
@@ -87,7 +82,7 @@ const App = () => {
                 >
                   <Contact />
                 </motion.div>
-
+                
                 <Footer />
               </>
             }

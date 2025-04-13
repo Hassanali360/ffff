@@ -10,7 +10,7 @@ export default {
         'working-img' : "url('/work-proceess.webp')"
       },
       colors:{
-        'heroBg': "#021122",
+        'heroBg': "#9a7b5c",
         'Para' : "rgb(0 0 0 / 80%)",
         'Primary': "#06a005"
       },

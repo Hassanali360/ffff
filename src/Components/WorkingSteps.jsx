@@ -14,17 +14,17 @@ const WorkingSteps = () => {
           <div className='flex flex-col md:flex-row gap-8 md:w-4/5 mx-auto'>
             <div className='flex-1 bg-white text-center rounded-lg p-6 shadow-lg'>
               <div className='text-Primary text-2xl font-bold mb-4'>1</div>
-              <div className='text-lg font-semibold mb-2'>Fill a Form</div>
+              <div className='text-lg font-semibold mb-2'>Signup Your Account</div>
               <p className='mt-2'>Description of the first step in the process.</p>
             </div>
             <div className='flex-1 bg-white text-center rounded-lg p-6 shadow-lg'>
               <div className='text-Primary text-2xl font-bold mb-4'>2</div>
-              <div className='text-lg font-semibold mb-2'>Get Matched</div>
-              <p className='mt-2'>Description of the second step in the process.</p>
+              <div className='text-lg font-semibold mb-2'>Fill up the form</div>
+              <p className='mt-2'>Don't gie spam infomation.</p>
             </div>
             <div className='flex-1 bg-white text-center rounded-lg p-6 shadow-lg'>
               <div className='text-Primary text-2xl font-bold mb-4'>3</div>
-              <div className='text-lg font-semibold mb-2'>Shedule</div>
+              <div className='text-lg font-semibold mb-2'>We will reach you out</div>
               <p className='mt-2'>Description of the third step in the process.</p>
             </div>
           </div>
