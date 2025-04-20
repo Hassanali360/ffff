@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaGithub, FaLinkedin, FaTwitter , FaWhatsapp } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import { IoCallOutline } from "react-icons/io5";  // Call Icon
 import { MdLocationOn } from "react-icons/md";  // Location Icon
@@ -33,13 +33,18 @@ const Footer = () => {
                     </a>
                     <p className='pt-5 text-slate-600'>Developed By  Techpigeon Org</p>
 
-                    <div className='flex gap-3 pt-5 text-2xl text-heroBg  pb-6'>
-                        <FaFacebook className='bg-slate-300 rounded-xl' />
-                        <FaInstagram />
-                        <FaGithub />
-                        <FaLinkedin />
-                        <FaTwitter />
-                    </div>
+                    <div className='flex gap-3 pt-5 text-2xl text-heroBg pb-6'>
+  <a href='https://www.facebook.com/profile.php?id=61573960704221&mibextid=ZbWKwL' target='_blank' rel='noopener noreferrer'>
+    <FaFacebook className='bg-slate-300 rounded-xl p-1' />
+  </a>
+  <a href='https://www.instagram.com/royalfriendstrading_25?igsh=MTU0djR6NXE3ZGIxaQ==' target='_blank' rel='noopener noreferrer'>
+    <FaInstagram />
+  </a>
+  <a href='https://wa.me/923700085717' target='_blank' rel='noopener noreferrer'>
+    <FaWhatsapp />
+  </a>
+</div>
+
                 </div>
 
 

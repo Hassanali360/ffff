@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 
 const Auth = () => {
@@ -11,11 +11,20 @@ const Auth = () => {
     formState: { errors },
   } = useForm();
 
+  const API_BASE = process.env.REACT_APP_API_URL;
+
+  useEffect(() => {
+    fetch(`${API_BASE}/api/users`)
+      .then(res => res.json())
+      .then(data => console.log(data))
+      .catch(err => console.error('Error fetching users:', err));
+  }, [API_BASE]);
+
   const onSubmit = async (data) => {
     const endpoint = isSignup ? 'signup' : 'login';
 
     try {
-      const res = await fetch(`http://localhost:5000/user/${endpoint}`, {
+      const res = await fetch(`${API_BASE}/user/${endpoint}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -38,7 +47,7 @@ const Auth = () => {
         alert('Login successful!');
 
         // Send login alert email to owner
-        await fetch('http://localhost:5000/api/send-login-alert', {
+        await fetch(`${API_BASE}/api/send-login-alert`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

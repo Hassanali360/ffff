@@ -19,7 +19,7 @@ LIMITED is a Pakistan-based diversified trading company
 operating in multiple industries. With a focus on quality,
 innovation, and customer satisfaction, we aim to become a
 leader in e-commerce, petroleum trading, crypto
-investments, cash & carry, property investment, and
+investments, cash & carry, property investment, andh
 garment trading.
 With our headquarters in Islamabad, we serve both
 domestic and international markets, ensuring high-standard
