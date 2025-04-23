@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   const handleScroll = () => {
-    const sections = ["home", "services", "about", "testimonial", "footer"];
+    const sections = ["home", "services", "about", "projects", "footer"];
     const scrollPosition = window.scrollY + 100;
 
     let foundSection = "home";
@@ -106,19 +106,7 @@ const Navbar = () => {
         >
           About
         </button>
-      </li>
-      <li>
-        <button
-          onClick={() => {
-            if (isOpen) handleToggle();
-            handleScrollTo("testimonial");
-          }}
-          className={navButtonClass("testimonial")}
-        >
-          Projects
-        </button>
-      </li>
-      <li>
+      
         <button
           onClick={() => {
             if (isOpen) handleToggle();

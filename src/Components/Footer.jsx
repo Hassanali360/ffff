@@ -94,18 +94,17 @@ const Footer = () => {
                                 onClick={goToHome} href="#" className='text-slate-600  hover:hover:text-heroBg hover:font-bold'>
                                 <div className="flex items-center gap-2">
                                     <IoCallOutline className="text-xl" /> {/* Call Icon */}
-                                    <span>+92 340 1884752</span>
+                                    <span>+92 370 0085717</span>
                                 </div>
                             </a>
                         </li>
                         <li> <a href="about" className='text-slate-600  hover:hover:text-heroBg hover:font-bold'><div className="flex items-center gap-2">
                             <MdLocationOn className="text-xl" /> {/* Location Icon */}
-                            <span>Office No: 03 First Floor MB City Mall Plaza
-                            Sector I-8 Markaz Islamabad</span>
+                            <span>MB City Mall Plaza Sector I-8 Markaz Islamabad</span>
                         </div></a></li>
                         <li> <a href="about" className='text-slate-600  hover:hover:text-heroBg hover:font-bold'><div className="flex items-center gap-2">
                             <IoMdMail className="text-xl" /> {/* Email Icon */}
-                            <span>Mughal_iiui91@hotmail.com</span>
+                            <span>royalfriendstrading@gmail.com</span>
                         </div></a></li>
 
 

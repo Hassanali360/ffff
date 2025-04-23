@@ -4,8 +4,7 @@ import Hero from './Components/Hero';
 import Services from './Components/Services';
 import About from './Components/About';
 import WorkingSteps from './Components/WorkingSteps';
-import Pricing from './Components/Pricing';
-import Testimonial from './Components/Testimonial';
+
 import Contact from "./Components/Contact";
 import Footer from './Components/Footer';
 import { motion } from 'framer-motion';
@@ -61,17 +60,7 @@ const App = () => {
                   <WorkingSteps />
                 </motion.div>
                 
-                {/* Pricing component */}
                 
-                {/* Testimonial component */}
-                <motion.div
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ amount: 0.3 }}
-                  variants={scrollVariants}
-                >
-                  <Testimonial />
-                </motion.div>
                 
                 {/* Contact component */}
                 <motion.div

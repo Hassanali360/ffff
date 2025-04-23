@@ -1,5 +1,10 @@
 const teamMembers = [
   {
+    name: "Fahad Mustafa Qureshi",
+    role: "Head Tour and Tourism",
+    image: "", // Replace with your image path
+  },
+  {
     name: "Abdul Wadood Matloob",
     role: "Managing Director",
     image: "", // Replace with your image path
@@ -19,11 +24,7 @@ const teamMembers = [
     role: "Director Property Marketing",
     image: "", // Empty means placeholder circle
   },
-  {
-    name: "Fahad Mustafa Qureshi",
-    role: "Director Tour and Tourism",
-    image: "", // Replace with your image path
-  },
+
 ];
 
 const Contact = () => {

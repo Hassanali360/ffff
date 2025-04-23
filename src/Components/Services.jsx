@@ -5,6 +5,19 @@ import serviceImg3 from "../assets/service3.webp"
 import serviceImg4 from "../assets/service4.webp"
 
 const Services = () => {
+
+  
+  const handleScoll2 = (targetId) => {
+    const targetElement = document.getElementById(targetId)
+    if (targetId) {
+        window.scrollTo({
+            top: targetElement.offsetTop,
+            behavior: 'smooth',
+        })
+    }
+
+}
+
   return (
     <div className='bg-[#f7f8fc]' id='services'>
       <div className='pt-28 px-4 container mx-auto' >
