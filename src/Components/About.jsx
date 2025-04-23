@@ -9,7 +9,6 @@ const About = () => {
           <div className="-skew-x-[-15deg]">Our Mission</div>
         </div>
 
-        {/* Mission Content */}
         <div className="grid md:grid-cols-2 gap-8 text-gray-800 text-[17px]">
           <div className="space-y-4">
             <p>
