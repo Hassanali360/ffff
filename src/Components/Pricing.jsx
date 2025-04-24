@@ -1,87 +1,50 @@
 import React from 'react'
+ import ceoImage from "../assets/ceo2.jpg"
 
-const packages = [
-  {
-    name: 'Bronze Package',
-    price: '$99',
-    description: 'Ideal for individuals or small businesses looking to get started with mental wellness.',
-    features: [
-      'Access to basic wellness resources',
-      'Weekly mental wellness tips',
-      'Community support group access',
-    ],
-  },
-  {
-    name: 'Silver Package',
-    price: '$199',
-    description: 'A great choice for growing businesses with additional features and support for mental wellness.',
-    features: [
-      'All Bronze Package features',
-      'Monthly guided meditation sessions',
-      'Personalized wellness plan',
-      'Access to expert webinars',
-    ],
-  },
-  {
-    name: 'Gold Package',
-    price: '$299',
-    description: 'Perfect for larger businesses needing advanced mental wellness features and premium support.',
-    features: [
-      'All Silver Package features',
-      'Weekly one-on-one coaching sessions',
-      'Advanced mental wellness tracking tools',
-      '24/7 access to mental wellness experts',
-    ],
-  },
-]
 
 
 const Pricing = () => {
 
-const handleScrollcontact = () => {
-  const targetElement = document.getElementById ('contacts');
-  if(targetElement) {
-    window.scrollTo({
-      top: targetElement.offsetTop,
-      behavior: 'smooth',
-    })
-  }
-}
-
 
   return (
-    <div id='pricing' className='bg-[#f7f8fc] pt-32'>
-  <div className='container mx-auto px-8'>
-    <div className='text-center mb-12'>
-      <h2 className='text-4xl font-bold font-Secoundary mb-3'>Perfect for Small & Large Devices </h2>
-      <p className='textlg mb-12 md:w-2/3 mx-auto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam iure aspernatur voluptatum laudantium odit, itasandae ullam minus, didi tempore, repellat nulla?</p>
-    </div>
-    {/* packages */}
-    <div className='flex flex-col md:flex-row md:w-5/6 mx-auto gap-8 mb-12'>
-       {
-        packages.map((pkg, index) => (
-          <div className='bg-white rounded-lg p-6 shadow-lg flex-1 '
-           key={index}>
-            <h3 className='text-2xl font-semibold mb-4  '>{pkg.name}</h3>
-            <hr className='w-23 border text-Primary border-Primary' />
-            <p className='text-3xl font-bold mb-4'>{pkg.price}</p>
-            <p className='text-lg mb-4'>{pkg.description}</p>
-            <ul className='list-disc list-inside space-y-2 mb-6'>
-              {
-              pkg.features.map((feature, idx) => (
-                <li key={idx} >{feature}</li>
-              ))
-              }
-            </ul>
-             <button
-             onClick={handleScrollcontact}
-              className='bg-Primary text-white px-4 py-2 rounded-lg'>Get Started</button>
+
+
+<section className="bg-white py-12 px-4 md:px-8 scroll-mt-28" id="welcome">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+        {/* Left Image Section */}
+        <div className="relative">
+          <div className="border border-gray-300">
+            <img src={ceoImage} alt="Naveed Ahmed Mughal (CEO)" className="w-full object-cover" />
+            <div className="bg-[#916C47] text-white text-center py-2 font-bold text-lg">
+              Naveed Ahmed Mughal <br className="md:hidden" />
+              <span className="text-base font-semibold">(CEO)</span>
+            </div>
           </div>
-        ))
-}
-    </div>
-  </div>
-    </div>
+        </div>
+
+        {/* Right Text Section */}
+        <div>
+          <h2 className="text-[#916C47] text-3xl font-bold mb-4">CEO's Message</h2>
+          <p className="text-gray-700 mb-4">
+            We are a dynamic and multi-industry trading company dedicated to innovation,
+            growth, and customer satisfaction. Our expertise spans across various business
+            sectors, including e-commerce, petroleum trading, cryptocurrency, cash & carry,
+            real estate, and garment trading.
+          </p>
+          <p className="text-gray-700 mb-4">
+            At Royal Friends Trading, we believe in providing high-quality products and services
+            that align with modern business needs while maintaining ethical, transparent, and
+            sustainable practices. Our goal is to bridge the gap between businesses and customers
+            by offering innovative trading solutions that enhance profitability and efficiency.
+          </p>
+          <p className="text-gray-700">
+            We take pride in building long-term relationships with our clients, investors,
+            and partners, ensuring mutual growth and success.
+          </p>
+        </div>
+      </div>
+    </section>
+    
   )
 }
 

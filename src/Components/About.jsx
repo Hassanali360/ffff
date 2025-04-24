@@ -2,9 +2,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="bg-white" id='about'>
+    <section className="bg-white scroll-mt-28" id="about">
       <div className="max-w-6xl mx-auto px-6 py-12 relative z-10">
-        {/* Title Banner */}
         <div className="inline-block bg-[#916C47] text-white px-6 py-2 font-bold text-3xl mb-8 relative skew-x-[-15deg]">
           <div className="-skew-x-[-15deg]">Our Mission</div>
         </div>
@@ -35,15 +34,6 @@ const About = () => {
             </p>
           </div>
         </div>
-      </div>
-
-      {/* Bottom Image */}
-      <div className="w-full h-auto overflow-hidden">
-        <img
-          src="/images/hands.jpg" // Replace with your actual image path
-          alt="Teamwork Hands"
-          className="w-full object-cover"
-        />
       </div>
     </section>
   );

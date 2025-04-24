@@ -100,7 +100,8 @@ const Footer = () => {
                         </li>
                         <li> <a href="about" className='text-slate-600  hover:hover:text-heroBg hover:font-bold'><div className="flex items-center gap-2">
                             <MdLocationOn className="text-xl" /> {/* Location Icon */}
-                            <span>MB City Mall Plaza Sector I-8 Markaz Islamabad</span>
+                            <span> First Floor MB City Mall Plaza
+                            Office No: 03  Sector I-8 Markaz Islamabad</span>
                         </div></a></li>
                         <li> <a href="about" className='text-slate-600  hover:hover:text-heroBg hover:font-bold'><div className="flex items-center gap-2">
                             <IoMdMail className="text-xl" /> {/* Email Icon */}

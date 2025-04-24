@@ -4,7 +4,7 @@ import Hero from './Components/Hero';
 import Services from './Components/Services';
 import About from './Components/About';
 import WorkingSteps from './Components/WorkingSteps';
-
+import Pricing from "./Components/Pricing"
 import Contact from "./Components/Contact";
 import Footer from './Components/Footer';
 import { motion } from 'framer-motion';
@@ -47,6 +47,16 @@ const App = () => {
                   variants={scrollVariants}
                 >
                   <About />
+                 
+                </motion.div>
+
+                <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ amount: 0.3 }}
+                  variants={scrollVariants}
+                >
+                  <Pricing/>
                  
                 </motion.div>
                 
