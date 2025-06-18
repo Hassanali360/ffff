@@ -1,8 +1,8 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import serviceImg1 from "../assets/service1.webp"
-import serviceImg2 from "../assets/service2.webp"
-import serviceImg3 from "../assets/service3.webp"
-import serviceImg4 from "../assets/service4.webp"
+import serviceImg1 from "../assets/service1.jpeg"
+import serviceImg2 from "../assets/service2.jpeg"
+import serviceImg3 from "../assets/service3.jpeg"
+import serviceImg4 from "../assets/service4.jpeg"
 
 const Services = () => {
 
