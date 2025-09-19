@@ -1,31 +1,4 @@
-const teamMembers = [
-  {
-    name: "Fahad Mustafa Qureshi",
-    role: "Head Tour and Tourism",
-    image: "", // Replace with your image path
-  },
-  {
-    name: "Abdul Wadood Matloob",
-    role: "Managing Director",
-    image: "", // Replace with your image path
-  },
-  {
-    name: "Shafaat Hussain",
-    role: "Director Sales and marketing",
-    image: "", // Empty means placeholder circle
-  },
-  {
-    name: "Farhan Riaz",
-    role: "Head of Risk & Investment",
-    image: "", // Replace with your image path
-  },
-  {
-    name: "Sajid Ali",
-    role: "Director Property Marketing",
-    image: "", // Empty means placeholder circle
-  },
 
-];
 
 const Contact = () => {
   return (
